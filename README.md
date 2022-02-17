@@ -13,4 +13,4 @@ This is the second project of the Web Development program at Practicum by Yandex
 
 ## Plan on improving the project
 
-Add your ideas here :)
+Add your ideas here :) First change
