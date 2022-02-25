@@ -1,0 +1,124 @@
+.header {
+  background-color: #fff;
+  background-image: url(/images/background_header.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+  min-height: 720px;
+  max-height: 800px;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  padding-left: 80px;
+  padding-right: 80px;
+  box-sizing: border-box;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.logo {
+  margin-left: -30px;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+  font-weight: 500;
+}
+
+.nav__link {
+  color: #000000;
+  text-decoration: none;
+  transition: 0.1s;
+}
+
+.nav__link:hover {
+  color: #2f80ed;
+  font-weight: 600;
+}
+
+.header__hero {
+}
+
+.header__hero_title {
+  max-width: 544px;
+  background-color: rgba(255, 255, 255, 0.9);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 72px;
+  position: relative;
+  z-index: 2;
+}
+
+.header__hero_title-accent {
+  font-family: "Noto Serif", Times, serif;
+  font-style: italic;
+  font-weight: normal;
+  color: #2f80ed;
+}
+
+.header__hero_description {
+  max-width: 465px;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 32px 0 0;
+  background-color: rgba(255, 255, 255, 0.9);
+  font-family: "Noto Serif", Times, serif;
+  font-size: 20px;
+  line-height: 30px;
+  position: relative;
+  z-index: 2;
+}
+
+.header__hero_image {
+  position: absolute;
+  right: 5px;
+  top: 124px;
+  max-width: 636px;
+  z-index: 1;
+}
+
+.header__paragraph {
+  position: absolute;
+  left: 0;
+  bottom: 40px;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  padding: auto;
+  justify-content: space-between;
+  box-sizing: border-box;
+  font-weight: 500;
+}
+
+.header__paragraph_column {
+}
+
+.header__paragraph_column-hours {
+  padding-left: 80px;
+}
+
+.header__paragraph_column-heading {
+  padding: 0;
+  margin: 0;
+  font-weight: 500;
+}
+
+.header__paragraph_list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.header__paragraph_column-address {
+  display: block;
+  margin-bottom: 0;
+  padding-right: 80px;
+}
