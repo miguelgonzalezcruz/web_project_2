@@ -22,10 +22,14 @@
 .reservation__form {
   margin: 0 auto;
   max-width: 385px;
+  padding-top: 80px;
 }
 
 .reservation__form_fieldset {
-  margin-top: 80px;
+}
+
+.form {
+  margin: 0 auto;
 }
 
 .form__fieldset {

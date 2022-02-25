@@ -93,22 +93,22 @@
   color: #838383;
 }
 
-.header__paragraph-hours {
+.header__paragraph_hours {
   padding-left: 80px;
 }
 
-.header__paragraph-hours-heading {
+.header__paragraph_hours-heading {
   margin: 0;
   font-weight: 500;
 }
 
-.header__paragraph-list {
+.header__paragraph_hours-list {
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
 
-.header__paragraph_column-address {
+.header__paragraph_address {
   display: block;
   margin-bottom: 0;
   padding-right: 80px;

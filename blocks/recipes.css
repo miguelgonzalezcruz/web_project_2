@@ -39,12 +39,12 @@
   border: 0;
 }
 
-.recipes__video-caption {
+.recipes__video_caption {
   display: flex;
   justify-content: space-between;
 }
 
-.recipes__video-caption_content {
+.recipes__video-caption-content {
   margin-top: 24px;
   margin-bottom: 0;
   font-weight: 500;
