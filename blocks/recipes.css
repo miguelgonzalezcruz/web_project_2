@@ -37,14 +37,13 @@
 
 .recipes__iframe {
   border: 0;
-}
-
-.recipes__iframe_caption {
   display: flex;
   justify-content: space-between;
 }
 
-.recipes__iframe-caption-content {
+.recipes__video-caption {
+  display: flex;
+  justify-content: space-between;
   margin-top: 24px;
   margin-bottom: 0;
   font-weight: 500;
