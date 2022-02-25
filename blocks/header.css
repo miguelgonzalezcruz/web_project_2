@@ -91,25 +91,24 @@
   box-sizing: border-box;
   font-weight: 500;
   color: #838383;
-}
-
-.header__paragraph_hours {
   padding-left: 80px;
+  padding-right: 80px;
 }
 
-.header__paragraph_hours-heading {
+.hours__heading {
   margin: 0;
   font-weight: 500;
 }
 
-.header__paragraph_hours-list {
+.hours__list {
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
 
-.header__paragraph_address {
+.address {
   display: block;
   margin-bottom: 0;
-  padding-right: 80px;
+  position: relative;
+  z-index: 2;
 }
