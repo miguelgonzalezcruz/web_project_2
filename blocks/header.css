@@ -108,7 +108,9 @@
 
 .header__paragraph_address {
   display: block;
+  bottom: 0;
   margin-bottom: 0;
   position: relative;
   z-index: 2;
+  padding-right: 0;
 }
