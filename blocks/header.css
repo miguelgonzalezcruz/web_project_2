@@ -71,8 +71,6 @@
   margin: 32px 0 0;
   background-color: rgba(255, 255, 255, 0.9);
   font-family: "Noto Serif", Times, serif;
-  font-size: 20px;
-  line-height: 30px;
   position: relative;
   z-index: 2;
 }
