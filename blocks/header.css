@@ -95,18 +95,18 @@
   padding-right: 80px;
 }
 
-.hours__heading {
+.header__paragraph-heading {
   margin: 0;
   font-weight: 500;
 }
 
-.hours__list {
+.header__paragraph-list {
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
 
-.address {
+.header__paragraph_address {
   display: block;
   margin-bottom: 0;
   position: relative;
