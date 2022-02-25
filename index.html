@@ -176,12 +176,10 @@
             <div class="recipes__iframe"></div>
             <div class="recipes__iframe_video">
               <iframe
-                id="ytplayer"
-                type="text/html"
+                id="ytplayer-j6VlT_jUVPc"
                 width="480"
                 height="270"
                 src="https://www.youtube.com/embed/j6VlT_jUVPc?start=2&color=white"
-                frameborder="0"
                 allowfullscreen
               ></iframe>
               <div class="recipes__caption">
@@ -191,12 +189,10 @@
             </div>
             <div class="recipes__iframe_video">
               <iframe
-                id="ytplayer"
-                type="text/html"
+                id="ytplayer-st571DYYTR8"
                 width="480"
                 height="270"
                 src="https://www.youtube.com/embed/st571DYYTR8?start=1&color=white"
-                frameborder="0"
                 allowfullscreen
               ></iframe>
               <div class="recipes__caption">
@@ -225,30 +221,18 @@
                 <label for="guests" class="form__label"
                   >Number of guests *</label
                 >
-                <select
-                  class="form__input"
+                <input
                   id="guests"
                   name="guests"
-                  placeholder="1-8"
-                >
-                  <option value="1">1</option>
-                  <option value="2">2</option>
-                  <option value="3">3</option>
-                  <option value="4">4</option>
-                  <option value="5">5</option>
-                  <option value="6">6</option>
-                  <option value="7">7</option>
-                  <option value="8">8</option>
-                </select>
+                  type="number"
+                  min="14"
+                  max="24"
+                  class="form__input"
+                  placeholder="1 - 8"
+                />
 
                 <label for="date" class="form__label">Date & time *</label>
-                <input
-                  type="date"
-                  class="form__input"
-                  id="date"
-                  name="date"
-                  placeholder="dd.mm.yyy"
-                />
+                <input type="date" class="form__input" id="date" name="date" />
 
                 <label for="email" class="form__label">Your email *</label>
                 <input
