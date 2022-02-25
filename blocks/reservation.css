@@ -11,7 +11,7 @@
   flex-direction: column;
 }
 
-.reservation_title {
+.reservation__title {
   font-size: 44px;
   line-height: 52px;
   font-weight: 500;

@@ -33,23 +33,23 @@
           />
 
           <nav class="nav-links">
-            <a href="#" class="nav__link">Menu</a>
-            <a href="#" class="nav__link">Recipes</a>
-            <a href="#" class="nav__link">Book a table</a>
-            <a href="#" class="nav__link">Contacts</a>
+            <a href="#menu" class="nav__link">Menu</a>
+            <a href="#recipes" class="nav__link">Recipes</a>
+            <a href="#reservation" class="nav__link">Book a table</a>
+            <a href="#about" class="nav__link">Contacts</a>
           </nav>
         </div>
 
-        <div class="header__hero">
-          <div class="header__hero_content">
-            <h1 class="header__hero_title">
-              <span class="header__hero_title header__hero_title-accent">
+        <div class="">
+          <div class="">
+            <h1 class="header__title">
+              <span class="header__title header__span-accent">
                 Specialty coffee</span
               >
               in&nbsp;the&nbsp;Practicum&nbsp;Library
             </h1>
 
-            <p class="header__hero_description">
+            <p class="header__description">
               Welcome to our study zone! We've got the coffee to energize you
               and the cozy vibes to help you get creative.
             </p>
@@ -58,20 +58,16 @@
           <img
             src="/images/inside_coffee_shop.png"
             alt="Illustration 'inside the coffee shop'"
-            class="header__hero_image"
+            class="header__image"
           />
         </div>
 
         <div class="header__paragraph">
-          <div class="header__paragraph_column header__paragraph_column-hours">
-            <h4 class="header__paragraph_column-heading">Hours:</h4>
-            <ul class="header__paragraph_list">
-              <li class="header__paragraph_list-item">
-                Monday – Friday (10:00 – 19:00)
-              </li>
-              <li class="header__paragraph_list-item">
-                Saturday – Sunday (11:00 – 18:00)
-              </li>
+          <div class="header__paragraph-hours">
+            <h4 class="header__paragraph-hours-heading">Hours:</h4>
+            <ul class="header__paragraph-list">
+              <li class="">Monday – Friday (10:00 – 19:00)</li>
+              <li class="">Saturday – Sunday (11:00 – 18:00)</li>
             </ul>
           </div>
 
@@ -94,7 +90,7 @@
           </div>
           <div class="menu__cards">
             <div class="card">
-              <h3 class="card_title">Filter</h3>
+              <h3 class="card__title">Filter</h3>
               <ul class="card__content">
                 <li class="card__list-item">
                   <span class="card__list-item-name">Regular (12 oz)</span> $1
@@ -118,7 +114,7 @@
               </ul>
             </div>
             <div class="card">
-              <h3 class="card_title">Espresso</h3>
+              <h3 class="card__title">Espresso</h3>
               <ul class="card__content">
                 <li class="card__list-item">
                   <span class="card__list-item-name">Macchiato</span> $2.25
@@ -139,7 +135,7 @@
             </div>
 
             <div class="card">
-              <h3 class="card_title">Baked Goods</h3>
+              <h3 class="card__title">Baked Goods</h3>
               <ul class="card__content">
                 <li class="card__list-item">
                   <span class="card__list-item-name">Almond Croissant</span> $2
@@ -173,39 +169,41 @@
             your&nbsp;home-brewing&nbsp;convenience:
           </h3>
           <div class="recipes__videos">
-            <div class="recipes__iframe"></div>
-            <div class="recipes__iframe_video">
+            <div>
               <iframe
+                class="recipes__iframe"
                 id="ytplayer-j6VlT_jUVPc"
                 width="480"
                 height="270"
                 src="https://www.youtube.com/embed/j6VlT_jUVPc?start=2&color=white"
                 allowfullscreen
               ></iframe>
-              <div class="recipes__caption">
-                <p class="recipes__caption_content">Aeropress recipe</p>
-                <p class="recipes__caption_content">~5 min</p>
+              <div class="recipes__video-caption">
+                <p class="recipes__video-caption_content">Aeropress recipe</p>
+                <p class="recipes__video-caption_content">~5 min</p>
               </div>
             </div>
-            <div class="recipes__iframe_video">
+            <div>
               <iframe
+                class="recipes__iframe"
                 id="ytplayer-st571DYYTR8"
                 width="480"
                 height="270"
                 src="https://www.youtube.com/embed/st571DYYTR8?start=1&color=white"
                 allowfullscreen
               ></iframe>
-              <div class="recipes__caption">
-                <p class="recipes__caption_content">French press recipe</p>
-                <p class="recipes__caption_content">~15 min</p>
+              <div class="recipes__video-caption">
+                <p class="recipes__video-caption_content">
+                  French press recipe
+                </p>
+                <p class="recipes__video-caption_content">~15 min</p>
               </div>
             </div>
-            <div class="recipes__caption"></div>
           </div>
         </section>
 
         <section id="reservation" class="reservation">
-          <h2 class="reservation_title">Book a table</h2>
+          <h2 class="reservation__title">Book a table</h2>
           <div class="reservation__form">
             <form class="reservation__form_fieldset">
               <fieldset class="form__fieldset">
@@ -216,6 +214,7 @@
                   id="name"
                   name="name"
                   placeholder="Name Surname"
+                  required
                 />
 
                 <label for="guests" class="form__label"
@@ -229,6 +228,7 @@
                   max="24"
                   class="form__input"
                   placeholder="1 - 8"
+                  required
                 />
 
                 <label for="date" class="form__label">Date & time *</label>
@@ -241,6 +241,7 @@
                   id="email"
                   name="email"
                   placeholder="email@email.com"
+                  required
                 />
               </fieldset>
 
@@ -250,6 +251,7 @@
 
               <label class="form__fieldset form__fieldset_checkbox">
                 <input
+                  required
                   type="checkbox"
                   class="form__input form__input-checkbox"
                   name="tc"

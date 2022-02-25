@@ -54,6 +54,10 @@
   max-width: 600px;
 }
 
+.card__title {
+  font-weight: bold;
+}
+
 .card:last-of-type {
   margin-top: 100px;
 }

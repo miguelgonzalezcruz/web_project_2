@@ -43,10 +43,7 @@
   font-weight: 600;
 }
 
-.header__hero {
-}
-
-.header__hero_title {
+.header__title {
   max-width: 544px;
   background-color: rgba(255, 255, 255, 0.9);
   font-style: normal;
@@ -57,14 +54,14 @@
   z-index: 2;
 }
 
-.header__hero_title-accent {
+.header__span-accent {
   font-family: "Noto Serif", Times, serif;
   font-style: italic;
   font-weight: normal;
   color: #2f80ed;
 }
 
-.header__hero_description {
+.header__description {
   max-width: 465px;
   font-size: 20px;
   line-height: 30px;
@@ -75,7 +72,7 @@
   z-index: 2;
 }
 
-.header__hero_image {
+.header__image {
   position: absolute;
   right: 5px;
   top: 124px;
@@ -93,22 +90,19 @@
   justify-content: space-between;
   box-sizing: border-box;
   font-weight: 500;
+  color: #838383;
 }
 
-.header__paragraph_column {
-}
-
-.header__paragraph_column-hours {
+.header__paragraph-hours {
   padding-left: 80px;
 }
 
-.header__paragraph_column-heading {
-  padding: 0;
+.header__paragraph-hours-heading {
   margin: 0;
   font-weight: 500;
 }
 
-.header__paragraph_list {
+.header__paragraph-list {
   list-style-type: none;
   padding: 0;
   margin: 0;

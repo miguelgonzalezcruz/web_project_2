@@ -36,14 +36,15 @@
 }
 
 .recipes__iframe {
+  border: 0;
 }
 
-.recipes__caption {
+.recipes__video-caption {
   display: flex;
   justify-content: space-between;
 }
 
-.recipes__caption_content {
+.recipes__video-caption_content {
   margin-top: 24px;
   margin-bottom: 0;
   font-weight: 500;
