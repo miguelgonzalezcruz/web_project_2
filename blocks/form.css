@@ -43,7 +43,7 @@
   color: #838383;
 }
 
-.form__input_checkbox {
+.form__input-checkbox {
   display: flex;
   align-self: center;
   border-radius: 2px;
